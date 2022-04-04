@@ -8,6 +8,9 @@ return require('packer').startup(function()
     use 'nvim-lualine/lualine.nvim'
     use 'rcarriga/nvim-notify'
     use 'romgrk/barbar.nvim'
+    
+    use {'nvim-treesitter/nvim-treesitter',run = ':TSUpdate' }
+
 
     use 'neovim/nvim-lspconfig'
     use 'hrsh7th/nvim-cmp' -- Autocompletion plugin
