@@ -10,7 +10,7 @@ return require('packer').startup(function()
     use 'romgrk/barbar.nvim'
     
     use {'nvim-treesitter/nvim-treesitter',run = ':TSUpdate' }
-
+    use 'nvim-treesitter/nvim-treesitter-refactor'
 
     use 'neovim/nvim-lspconfig'
     use 'hrsh7th/nvim-cmp' -- Autocompletion plugin
