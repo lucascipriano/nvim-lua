@@ -1,0 +1,5 @@
+require('settings')
+require('mappings')
+require('colorschemes-config')
+require('packer-config')
+require('nvim-tree-config')
