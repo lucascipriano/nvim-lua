@@ -1,6 +1,8 @@
 local set = vim.opt
 
 
+vim.notify = require("notify")
+
 set.expandtab = true
 set.smarttab = true
 set.shiftwidth = 4
