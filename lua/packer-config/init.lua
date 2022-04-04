@@ -8,7 +8,12 @@ return require('packer').startup(function()
     use 'nvim-lualine/lualine.nvim'
     use 'rcarriga/nvim-notify'
     use 'romgrk/barbar.nvim'
-    
+   
+    use {
+        'nvim-telescope/telescope.nvim',
+        requires = { {'nvim-lua/plenary.nvim'} }
+        }
+
     use {'nvim-treesitter/nvim-treesitter',run = ':TSUpdate' }
     use 'nvim-treesitter/nvim-treesitter-refactor'
 
