@@ -28,3 +28,8 @@ map('n', '<Space>bd', ':BufferOrderByDirectory<CR>', opts)
 map('n', '<Space>ff', ':Telescope find_files<CR>', opts)
 map('n', '<Space>fg', ':Telescope live_grep<CR>', opts)
 
+
+-- Terminal
+map("n", "<leader>tf", "<cmd>ToggleTerm direction=float<cr>", opts)
+map("n", "<leader>th", "<cmd>ToggleTerm size=10 direction=horizontal<cr>", opts)
+map("n", "<leader>tv", "<cmd>ToggleTerm size=80 direction=vertical<cr>", opts)

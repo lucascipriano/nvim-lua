@@ -1,8 +1,6 @@
-# Nvim config lua
-## _Neovim usando LSP nativo contendo alguns plugins como:_
-- Packer como plugin manager
--  para navegação
-- LSP nativo
+# Neovim config lua
+
+![Dneovim](print.png)
 
 ## Linguagens com LSP
 - Golang
@@ -12,8 +10,18 @@
 ## Mapping
 | Shortcute | Links |
 | ------ | ------ |
-| <mapleader> | space |
-| <leader> + f | NvimTreeToggle |
+| mapleader | space |
+| alt+ <or> | move tab |
+| mapleader | space |
+| mapleader | space |
+| mapleader | space |
+| leader + t | NvimTreeToggle |
+| leader + ff | Telescope |
+| leader + fg | Telescope Live |
+| leader + tf | Terminal float  |
+| leader + th | Terminal horizontal |
+| leader + tv | Terminal vertical |
+
 ## Requisitos
 
 - [Packer](https://github.com/wbthomason/packer.nvim) Comando para atualizar `:PackerSync`
@@ -27,12 +35,18 @@
 | NightFox Theme | https://github.com/EdenEast/nightfox.nvim |
 | LSP Manager | https://github.com/neovim/nvim-lspconfig |
 | LSP Completion | https://github.com/hrsh7th/nvim-cmp |
-| LSPkind-nvim | https://github.com/onsails/lspkind-nvim |
+| Nvim notify | https://github.com/rcarriga/nvim-notify |
+| Barbar | https://github.com/romgrk/barbar.nvim |
+| Telescope | https://github.com/nvim-telescope/telescope.nvim |
+| Treesitter | https://github.com/nvim-treesitter/nvim-treesitter |
 
 ## Próximas features
 
-[ ] terminal - https://github.com/akinsho/toggleterm.nvim
-[ ] Telescope - https://github.com/nvim-telescope/telescope.nvim
-[ ] AutoPairs - https://github.com/windwp/nvim-autopairs
-[ ] Formatting & Linting - https://github.com/jose-elias-alvarez/null-ls.nvim
+- [ ] terminal - https://github.com/akinsho/toggleterm.nvim
+
+- [x] Telescope - https://github.com/nvim-telescope/telescope.nvim
+
+- [ ] AutoPairs - https://github.com/windwp/nvim-autopairs
+
+- [ ] Formatting & Linting - https://github.com/jose-elias-alvarez/null-ls.nvim
 
