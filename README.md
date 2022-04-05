@@ -11,10 +11,7 @@
 | Shortcute | Links |
 | ------ | ------ |
 | mapleader | space |
-| alt+ <or> | move tab |
-| mapleader | space |
-| mapleader | space |
-| mapleader | space |
+| alt+ < or > | move tab |
 | leader + t | NvimTreeToggle |
 | leader + ff | Telescope |
 | leader + fg | Telescope Live |
